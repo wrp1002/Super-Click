@@ -1,0 +1,35 @@
+﻿  Burn.cpp
+  Crack.cpp
+  Effect.cpp
+  EffectManager.cpp
+  Explosion.cpp
+  FireBig.cpp
+  FireSmall.cpp
+  main.cpp
+  Mouse.cpp
+  Object.cpp
+  ResourceManager.cpp
+c:\users\wes\source\repos\super click\super click\resourcemanager.cpp(9): warning C4804: '+=': unsafe use of type 'bool' in operation
+c:\users\wes\source\repos\super click\super click\resourcemanager.cpp(10): warning C4804: '+=': unsafe use of type 'bool' in operation
+c:\users\wes\source\repos\super click\super click\resourcemanager.cpp(11): warning C4804: '+=': unsafe use of type 'bool' in operation
+c:\users\wes\source\repos\super click\super click\resourcemanager.cpp(12): warning C4804: '+=': unsafe use of type 'bool' in operation
+c:\users\wes\source\repos\super click\super click\resourcemanager.cpp(13): warning C4804: '+=': unsafe use of type 'bool' in operation
+c:\users\wes\source\repos\super click\super click\resourcemanager.cpp(14): warning C4804: '+=': unsafe use of type 'bool' in operation
+c:\users\wes\source\repos\super click\super click\resourcemanager.cpp(16): warning C4804: '+=': unsafe use of type 'bool' in operation
+c:\users\wes\source\repos\super click\super click\resourcemanager.cpp(17): warning C4804: '+=': unsafe use of type 'bool' in operation
+c:\users\wes\source\repos\super click\super click\resourcemanager.cpp(20): warning C4804: '+=': unsafe use of type 'bool' in operation
+  Generating Code...
+Burn.obj : error LNK2019: unresolved external symbol __imp__al_draw_filled_circle referenced in function "public: virtual void __thiscall Burn::Draw(class ResourceManager *)" (?Draw@Burn@@UAEXPAVResourceManager@@@Z)
+Crack.obj : error LNK2001: unresolved external symbol __imp__al_draw_filled_circle
+Effect.obj : error LNK2001: unresolved external symbol __imp__al_draw_filled_circle
+Crack.obj : error LNK2019: unresolved external symbol __imp__al_draw_line referenced in function "public: virtual void __thiscall Crack::Draw(class ResourceManager *)" (?Draw@Crack@@UAEXPAVResourceManager@@@Z)
+main.obj : error LNK2019: unresolved external symbol __imp__al_init_primitives_addon referenced in function _main
+main.obj : error LNK2019: unresolved external symbol __imp__al_draw_filled_rectangle referenced in function _main
+main.obj : error LNK2019: unresolved external symbol __imp__al_install_audio referenced in function _main
+main.obj : error LNK2019: unresolved external symbol __imp__al_reserve_samples referenced in function _main
+main.obj : error LNK2019: unresolved external symbol __imp__al_init_acodec_addon referenced in function _main
+main.obj : error LNK2001: unresolved external symbol "public: static struct Resource::Item Resource::fire" (?fire@Resource@@2UItem@1@A)
+ResourceManager.obj : error LNK2019: unresolved external symbol __imp__al_play_sample referenced in function "public: void __thiscall ResourceManager::PlaySample(char const *,float)" (?PlaySample@ResourceManager@@QAEXPBDM@Z)
+ResourceManager.obj : error LNK2019: unresolved external symbol __imp__al_load_sample referenced in function "public: bool __thiscall ResourceManager::LoadSample(char const *,char const *)" (?LoadSample@ResourceManager@@QAE_NPBD0@Z)
+ResourceManager.obj : error LNK2019: unresolved external symbol __imp__al_load_sample_f referenced in function "public: bool __thiscall ResourceManager::LoadSampleMemfile(char const *,unsigned char * const)" (?LoadSampleMemfile@ResourceManager@@QAE_NPBDQAE@Z)
+C:\Users\Wes\source\repos\Super Click\Debug\Super Click.exe : fatal error LNK1120: 11 unresolved externals
